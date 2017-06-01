@@ -16,11 +16,15 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
+// Typography Styles
 h1, h2, h3 {
     font-family: 'Old Standard TT', serif;
 }
 
+// Background Gradient
 .navbar, .home-callout {
   //Gradient provided by @_ighosh at uiGradients.com
   background: #c0c0aa;  /* fallback for old browsers */
@@ -28,6 +32,7 @@ h1, h2, h3 {
   background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+// Nav Styles
 .navbar {
   border: none;
 }
@@ -41,6 +46,7 @@ h1, h2, h3 {
   }
 }
 
+// Home page styles
 .home-callout {
   color: white;
   margin-top: -20px;
