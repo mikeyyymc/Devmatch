@@ -3,6 +3,17 @@
   width: 128px;
   height: 128px;
 }
+
+.job-title-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #2e6da4;
+  border-radius: 4px;
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+}
 // Can only nest the h3 into the profile block because this is 
 // scss, you would have to individually target prfofile block h3
 // to change margin top and other info.
