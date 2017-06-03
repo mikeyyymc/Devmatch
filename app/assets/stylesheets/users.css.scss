@@ -1,0 +1,26 @@
+// Avatar image sizing
+.avatar-show-img {
+  width: 128px;
+  height: 128px;
+}
+// Can only nest the h3 into the profile block because this is 
+// scss, you would have to individually target prfofile block h3
+// to change margin top and other info.
+
+// Profile block dims
+.well.profile-block {
+  color: #fff;
+  h3 {
+    margin-top: 0;
+  }
+}
+// Profile description color
+.well.profile-description {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+// Profile contact info color
+.well.profile-contact-info {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
