@@ -20,3 +20,9 @@ User Profiles
 * User should be able to create and vew their user profile
 * User profile should have profile picture
 * User should be able to view all user profiles
+
+* Profile 1: test@example.com , socal32
+* Profile 2: test2@example.com , socal32 *PRO
+* Profile 3: test3@example.com , socal32 *PRO
+
+* Dummy ccNum: 4111111111111111
